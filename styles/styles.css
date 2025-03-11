@@ -1,0 +1,54 @@
+body {
+    font-size: 14px;
+    margin: 20px auto;
+    width: 1200px;
+    height: 800px;
+    border: solid black 1px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+    display: flex;
+    height: 100%;
+    background-color: #323232;
+    border-radius: 9px 0 0 9px;
+    max-width: 300px;
+}
+
+.left-menu {
+
+
+}
+
+
+.account {
+    display: flex;
+    margin: 15px;
+}
+
+.account h3 {
+    margin: auto 0;
+    color: white;
+}
+.account h4 {
+    margin: auto 0;
+    color: white;
+}
+
+.info-account {
+    margin: auto 0;
+}
+
+.picture {
+    max-width: 64px;
+    max-height: 64px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.account img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+  }
