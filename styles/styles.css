@@ -1,24 +1,24 @@
 body {
     font-size: 14px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
     margin: 20px auto;
     width: 1200px;
     height: 800px;
     border: solid black 1px;
     border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.app {
     display: flex;
-    height: 100%;
-    background-color: #323232;
-    border-radius: 9px 0 0 9px;
-    max-width: 300px;
+    overflow: hidden;
 }
 
 .left-menu {
-
-
+    height: 100%;
+    background-color: #323232;
+    max-width: 300px;
 }
 
 
@@ -52,3 +52,80 @@ body {
     height: 100%;
     margin: 0 auto;
   }
+
+
+.search {
+    text-decoration: none;
+    display: block;
+    margin: 0px auto;
+    width: 200px;
+    height: 25px;
+    background-color: #323232;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(0, 204, 255);
+}
+
+
+
+.task-butt {
+    margin-left: 20px;
+    width: 200px;
+    border: 1px red solid;
+}
+
+.today-task {
+    display: flex;
+    margin-bottom: 10px;
+    border: green 1px solid;
+    color: whitesmoke;
+    align-items: center;
+}
+.today-task:hover {
+    background-color: #414141;
+	transition: all 200ms ease;
+}
+
+.today-task img {
+    max-height: 24px;
+    padding-right: 10px;
+}
+
+.important-task {
+    display: flex;
+    margin-bottom: 10px;
+    border: green 1px solid;
+    color: whitesmoke;
+    align-items: center;
+}
+.important-task:hover {
+    background-color: #414141;
+	transition: all 200ms ease;
+}
+
+.important-task img {
+    max-height: 24px;
+    padding-right: 10px;
+}
+
+.all-task {
+    display: flex;
+    margin-bottom: 10px;
+    border: green 1px solid;
+    color: whitesmoke;
+    align-items: center;
+}
+.all-task:hover {
+    background-color: #414141;
+	transition: all 200ms ease;
+}
+
+.all-task img {
+    max-height: 24px;
+    padding-right: 10px;
+}
+
