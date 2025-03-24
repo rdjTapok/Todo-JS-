@@ -6,7 +6,7 @@
 
 A modern todo list web application built with core web technologies. Stay organized and boost your productivity!
 
-![Todo App Preview](https://imgur.com/6ka7TAz)
+![Todo App Preview](https://github.com/rdjTapok/Todo-JS-/blob/main/Todo-JS-.png)
 ## ✨ Features
 
 - ✅ Add/delete tasks with intuitive interface
