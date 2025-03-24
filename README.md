@@ -1,13 +1,12 @@
 # Todo Web Application 🚀
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rdjTapok/todo-web-app/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/rdjTapok/todo-web-app)](https://github.com/rdjTapok/todo-web-app/stargazers)
-[![GitHub last commit](https://img.shields.io/github/last-commit/rdjTapok/todo-web-app)](https://github.com/rdjTapok/todo-web-app/commits/main)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rdjTapok/Todo-JS-/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/rdjTapok/Todo-JS-)](https://github.com/rdjTapok/Todo-JS-/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/rdjTapok/Todo-JS-)](https://github.com/rdjTapok/Todo-JS-/commits/main)
 
 A modern todo list web application built with core web technologies. Stay organized and boost your productivity!
 
-![Todo App Preview](https://via.placeholder.com/800x400.png?text=Todo+App+Screenshot) <!-- Replace with actual screenshot -->
-
+![Todo App Preview](https://imgur.com/6ka7TAz)
 ## ✨ Features
 
 - ✅ Add/delete tasks with intuitive interface
@@ -32,4 +31,4 @@ A modern todo list web application built with core web technologies. Stay organi
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/rdjTapok/todo-web-app.git
+git clone https://github.com/rdjTapok/Todo-JS-.git
