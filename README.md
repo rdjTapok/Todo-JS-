@@ -5,6 +5,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/rdjTapok/Todo-JS-)](https://github.com/rdjTapok/Todo-JS-/commits/main)
 
 A modern todo list web application built with core web technologies. Stay organized and boost your productivity!
+Previous - https://rdjtapok.github.io/Todo-JS-/
 
 ![Todo App Preview](https://github.com/rdjTapok/Todo-JS-/blob/main/Todo-JS-.png)
 ## ✨ Features
