@@ -73,61 +73,34 @@ body {
 
 
 
-.task-butt {
-    margin-left: 15px;
-    width: 200px;
+.task-butt ul {
+    row-gap: 15px;
+    list-style: none;
+    padding-left: 20px;
 }
-
-.today-task {
+.task-butt ul li {
     display: flex;
+    align-items: center;
+    gap: 15px;
+
+    font-size: 16px;
     margin-top: 10px;
+    height: 30px;
     border-radius: 5px;
     color: whitesmoke;
-    align-items: center;
+    cursor: pointer;
 }
-.today-task:hover {
-    background-color: #414141;
-	transition: all 200ms ease;
-}
-
-.today-task img {
+.task-butt ul img {
     max-height: 24px;
-    padding-right: 10px;
     padding-left: 5px;
 }
-
-.important-task {
-    display: flex;
-    border-radius: 5px;
-    color: whitesmoke;
-    align-items: center;
-}
-.important-task:hover {
+.task-butt ul li:hover {
     background-color: #414141;
-	transition: all 200ms ease;
 }
-
-.important-task img {
-    max-height: 24px;
-    padding-right: 10px;
-    padding-left: 5px;
-}
-
-.all-task {
-    display: flex;
-    border-radius: 5px;
-    color: whitesmoke;
-    align-items: center;
-}
-.all-task:hover {
-    background-color: #414141;
-	transition: all 200ms ease;
-}
-
-.all-task img {
-    max-height: 24px;
-    padding-right: 10px;
-    padding-left: 5px;
+.task-butt ul li.active,
+.task-butt ul li:focus {
+    outline: none;
+    border-left: 2px solid rgb(0, 204, 255);
 }
 
 .create-tasks {
@@ -139,7 +112,7 @@ body {
 }
 .create-tasks:hover {
     background-color: #414141;
-	transition: all 200ms ease;
+    cursor: pointer;
 }
 
 .create-tasks img {
@@ -156,6 +129,8 @@ body {
     background: url('/img/background.jpg');
     background-size: cover;
     width: 100%;
+    position: relative;
+
 }
 
 .main h1,h2 {
@@ -177,6 +152,8 @@ body {
     height: 250px;
     border-radius: 10px;
     text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
 }
 
 .main-notification img {
@@ -219,4 +196,70 @@ body {
     outline:none;
     border-bottom: aqua solid 2px;
     transition: 100ms;
+}
+.notification-container {
+    min-height: 250px; /* Фиксированная высота уведомления */
+    margin: 20px 0;
+}
+
+.input-container {
+    position: absolute; /* Меняем на абсолютное позиционирование */
+    bottom: 20px; /* Отступ снизу */
+    left: 0;
+    right: 0;
+    margin-top: 0; /* Убираем прежний отступ */
+    width: 100%;
+}
+  
+.task-butt li {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.task-butt li.active {
+    background: rgba(50, 50, 50, 0.5);
+    border-left: 2px solid #00ccff;
+}
+
+.notification-wrapper {
+    margin: 20px 0;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.tasks-container {
+    width: 90%;
+    margin: 20px auto;
+    background: #323232e5;
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 200px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    margin: 8px 0;
+    background: #414141;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.task-item:hover {
+    background: #4a4a4a;
+    transform: translateX(5px);
+}
+
+.task-checkbox {
+    width: 18px;
+    height: 18px;
+    accent-color: #00ccff;
+}
+
+.task-text {
+    color: whitesmoke;
+    flex-grow: 1;
+    font-size: 14px;
 }

@@ -1,59 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Todo list</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles/styles.css" />
-  </head>
-  <body>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
     <div class="app">
-    <div class="left-menu">
-        <div class="account">
-            <div class="picture">
-                <img src="img/photo.jpg" alt="img">
+        <div class="left-menu">
+            <div class="account">
+                <div class="picture">
+                    <img src="img/photo.jpg" alt="Аватар">
+                </div>
+                <div class="info-account">
+                    <h3 class="name-account">My Name</h3>
+                    <h4 class="email-account">account@mail.com</h4>
+                </div>
             </div>
-            <div class="info-account">
-                <div class="name-account"><h3>My name</h3></div>
-                <div class="email-account"><h4>account@mail.com</h4></div>            
+            <input type="text" class="search" placeholder="Поиск">
+            <nav class="task-butt">
+                <ul>
+                    <li><img src="img/sun.png" alt="Сегодня">Сегодня</li>
+                    <li><img src="img/star.png" alt="Важно">Важно</li>
+                    <li><img src="img/requirements.png" alt="Все задачи">Все задачи</li>
+                </ul>
+            </nav>
+        </div>
+        <main class="main">
+            <div class="main-content">
+                <div class="dateMain">
+                    <h1>Мой день</h1>
+                    <p id="dateMain"></p>
+                </div>
+                
+                <div class="notification-wrapper">
+                    <div class="main-notification">
+                        <img src="img/calendary.png" alt="Календарь">
+                        <h2>Сосредоточьтесь на своем дне</h2>
+                        <p>Выполняйте запланированное, и ваш день пройдет продуктивно.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <input type="text" class="search" placeholder="Поиск">
-
-        <div class="task-butt">
-          <div class="today-task">
-            <img src="img/sun.png" alt="today">
-            <p>Сегодня</p>
-          </div>
-          <div class="important-task">
-            <img src="img/star.png" alt="important">
-            <p>Важно</p>
-          </div>
-          <div class="all-task">
-            <img src="img/requirements.png" alt="all-task">
-            <p>Все задачи</p>
-          </div>
-
-          <div class="create-tasks">
-            <img src="img/plus.png" alt="all-task">
-            <p>Создать список</p>
-          </div>
-        </div>
-    </div>
-    <main class="main">
-      <h1>Мой день</h1>
-      <p id="">Сегодня пятница, 21 марта</p>
-      <div class="main-notification">
-        <img src="img/calendary.png" alt="picture">
-        <h2>Сосредоточтесь на своем дне</h2>
-        <p>Выполняйте то, что планируете сегодня и ваш день пройдет уверенно.</p>
-      </div>
-      <div style="position: relative;">
-        <input type="text" class="add-task" placeholder="Добавить задачу">
-      </div>
-    </main>
+            <div class="input-container">
+                <input type="text" class="add-task" placeholder="Добавить задачу" id="add-task">
+            </div>
+        </main>
     </div>
     <script src="scripts/script.js"></script>
-  </body>
+</body>
 </html>
